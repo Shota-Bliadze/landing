@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1340;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 19px;
+}
+
+.nav-link{
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #957554;
+
+}
+.nav-link:hover {
+    color: #000;
+}
+
+
+.navigation {
+    display: flex;
+    gap: 50px;
+    margin-right: 107px;
+}
+
+
+.Logo1 {
+    margin-left: 62px;
+}
+
+.main-title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+    margin-bottom: 48px;
+}
+
+.first-section{
+    background-image: url(./assets/background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+.first-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.description {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+    margin-bottom: 53px;
+
+}
+.Button{
+    background: #DFAA5B;
+    color: #fff;  
+    padding: 25px 133px; 
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border-radius: 10px;
+
+}
+.secondary-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #957554;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 47px
+}
+
+.rooms-card{
+   max-width: 630px;
+   max-height: 500px;
+   border-radius: 10px;
+   overflow: hidden;
+   position: relative;
+   margin-left: 60px;
+ 
+
+}
+.card-content{
+    position: absolute;
+    left: 0;
+    bottom: 57px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: center;
+    width: 100%;
+    
+    
+
+}
+.rooms-card > img {
+    max-width: 630px;
+    max-height: 500px;
+
+}
+.card-title{
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+    margin-bottom: 19px;
+
+}
+.Button.but-small{
+    padding: 24px 52px;
+}
+.cards-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 61px;
+    margin-bottom: 55px;
+    justify-content: center; 
+    margin-right: 60px;
+}
+.third-header > h2{
+    margin-bottom: 38px;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 127px;
+    
+}    
+
+footer{
+    background-color: #111;
+    padding: 51px   0px 159px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    
+}
+
+.footer-nav-links{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+
+}
+
+.footer-text a{
+    display: block;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+    margin-right: 123px;
+
+}
+
+.footer-text p{
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+
+}
+
+.footer-content img{
+    width: 154px;
+    height: 126px;
+    object-fit: cover;
+    margin-top: 51px;
+    margin-left: 54px;
+
+}
+
+.news-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+    gap: 60px;
+}
+
+.news-card img{
+    width: 630px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.news-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 44px;
+}
+
+.news-card-content h3{
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:#957554;
+
+}
+
+.news-card-content p{
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000;
+    margin-right: 60px;
+
+}
+
+.news-card-content a{
+    max-width: 150px;
+    margin-right: 60px;
+}
+
+.news-card img{
+    margin-left: 60px;
+}
+
+.news-card{
+    margin-bottom: 50px;
+}
+
+.news-card:nth-child(2n) img{
+    order: 1;
+}
+
+.news-card.news-card:nth-child(2n) .news-card-content{
+    align-items: end;
+    text-align: right;
+}
+
+.news-card:last-child{
+    margin-bottom: 107px;
+}
+
+
+.gallery-grid img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    max-width: 100vh;
+    
+}
+
+.gallery-grid{
+    grid-template-rows: 300px 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+}
+
+
+
+
+
